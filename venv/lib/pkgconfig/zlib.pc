@@ -1,0 +1,13 @@
+prefix=/Users/anupbhat/dbce/pypypy/venv
+exec_prefix=/Users/anupbhat/dbce/pypypy/venv
+libdir=/Users/anupbhat/dbce/pypypy/venv/lib
+sharedlibdir=/Users/anupbhat/dbce/pypypy/venv/lib
+includedir=/Users/anupbhat/dbce/pypypy/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
